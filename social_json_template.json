@@ -1,0 +1,69 @@
+{
+
+    "account_information" : {
+        "name" : "",
+        "email_address" : "",
+        "gender" : "",
+        "phone_number" : "",
+        "primary_location" : ""
+    },
+
+    "advertisement" : {
+        "advertiser_names" : []
+    },
+
+    "profile_updates" : {
+        "items" : [ 
+           {
+               "changed_value" : "",
+               "timestamp"  : "",
+               "application" : ""
+           }
+        ]
+    },
+
+    "location_history" : {
+        "items" : []
+    },
+
+    "your_search_history" : {
+        "items" : [
+            {
+                "title" : "",
+                "timestamp" : "",
+                "application" : ""
+            }
+        ]
+    },
+
+    "account_login_activity" : {
+        "items" : [
+            {
+                "application" : "",
+                "timestamp" : ""
+            }
+        ]
+    },
+
+    "your_posts" : {
+        "items" : [
+            {
+                "title" : "",
+                "timestamp" : "",
+                "application" : ""
+            }
+        ]
+    },
+    
+    "friends" : {
+        "items" : [
+            {
+                "name" : "",
+                "timestamp" : "",
+                "application" : ""
+            }
+        ]
+    }
+
+  
+}

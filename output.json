@@ -1,0 +1,120 @@
+{
+    "account_information": {
+        "name": "Divyasheel Odedev",
+        "email_address": "divyasheel.kumar@odeinfinity.com",
+        "gender": "MALE",
+        "phone_number": "+918437151118",
+        "primary_location": ""
+    },
+    "advertisement": {
+        "advertiser_names": [
+            {
+                "advertiser_name": "Flipkart Internet Private Limited"
+            },
+            {
+                "advertiser_name": "BookMyShow"
+            },
+            {
+                "advertiser_name": "Atlassian"
+            },
+            {
+                "advertiser_name": "LazyPay"
+            },
+            {
+                "advertiser_name": "Paytm"
+            },
+            {
+                "advertiser_name": "IFFCO"
+            },
+            {
+                "advertiser_name": "UpStart & CodeUp"
+            },
+            {
+                "advertiser_name": "Simpl"
+            },
+            {
+                "advertiser_name": "Domino's Pizza India"
+            },
+            {
+                "advertiser_name": "SproutUp"
+            },
+            {
+                "advertiser_name": "LinkedIn"
+            },
+            {
+                "advertiser_name": "Parse"
+            },
+            {
+                "advertiser_name": "Meta for Developers"
+            },
+            {
+                "advertiser_name": "Killer1301"
+            },
+            {
+                "advertiser_name": "Hyde Park Picnics"
+            },
+            {
+                "advertiser_name": "Instagram for Business"
+            },
+            {
+                "advertiser_name": "Frank the Tank"
+            },
+            {
+                "advertiser_name": "Meta for Business"
+            },
+            {
+                "advertiser_name": "Targeting Dogfooding"
+            },
+            {
+                "advertiser_name": "Meta"
+            }
+        ]
+    },
+    "profile_updates": {
+        "items": [
+            {
+                "changed_value": "",
+                "timestamp": "",
+                "application": ""
+            }
+        ]
+    },
+    "location_history": {
+        "items": []
+    },
+    "your_search_history": {
+        "items": [
+            {
+                "title": "",
+                "timestamp": "",
+                "application": ""
+            }
+        ]
+    },
+    "account_login_activity": {
+        "items": [
+            {
+                "application": "",
+                "timestamp": ""
+            }
+        ]
+    },
+    "your_posts": {
+        "items": [
+            {
+                "title": "",
+                "timestamp": "",
+                "application": ""
+            }
+        ]
+    },
+    "friends": {
+        "items": [
+            {
+                "name": "",
+                "timestamp": "",
+                "application": ""
+            }
+        ]
+    }
+}
