@@ -4,7 +4,13 @@
     "email_address": "divyasheel.kumar@odeinfinity.com",
     "gender": "MALE",
     "phone_number": "+918437151118",
-    "primary_location": ""
+    "primary_location": {
+      "items": [
+        {
+          "zipcode": null
+        }
+      ]
+    }
   },
   "advertisement": {
     "advertiser_names": [

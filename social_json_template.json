@@ -5,7 +5,13 @@
         "email_address" : "",
         "gender" : "",
         "phone_number" : "",
-        "primary_location" : ""
+        "primary_location" : {
+            "items" : [
+                {
+                    "pincode" : ""
+                }
+            ]
+        }
     },
 
     "advertisement" : {

@@ -1,4 +1,3 @@
-from importlib.machinery import DEBUG_BYTECODE_SUFFIXES
 import json
 from decimal import Decimal
 
@@ -8,6 +7,7 @@ fb_list = [
     [["account_information" , "email_address"],["profile_information", "profile_v2", "emails" , "emails" , 0]],
     [["account_information","gender"],["profile_information","profile_v2","gender","gender_option"]],
     [["account_information" , "phone_number"],["profile_information" , "profile_v2" , "phone_numbers", 0 , "phone_number"]],
+    [["account_information" , "primary_location" , "items"] , ["primary_location" , "primary_location_v2" , "zipcode"] , ["zipcode"]],
     [["advertisement" , "advertiser_names"],["advertisers_using_your_activity_or_information" , "custom_audiences_all_types_v2"] , ["advertiser_name"]],
     [["profile_updates", "items"],["profile_update_history" , "profile_updates_v2"] , ["timestamp" , "title"]],
     [["location_history" , "items"] , ["account_activity" , "account_activity_v2"] , ["city"]],
@@ -46,7 +46,7 @@ def nested_put(social_dic, app_dic , app_list , curr_pos , app_name):
             extract_fields = app_list[curr_pos][2] # fields to plucked out from the app_dic (fb DSR json)
             if len(social_dic[social_keys[-1]]):
                 social_dic[social_keys[-1]].pop()
-            for el in app_dic[app_keys[i]]: 
+            for el in app_dic[app_keys[i]]:  
                 obj = {}
                 for elem in extract_fields:
                     if elem in el:
