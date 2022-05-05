@@ -1,0 +1,695 @@
+{
+    "bitmoji_kit_user":{
+       
+    },
+    "chat_history":{
+       "Received Saved Chat History":[
+          
+       ],
+       "Sent Saved Chat History":[
+          
+       ],
+       "Received Unsaved Chat History":[
+          {
+             "From":"teamsnapchat",
+             "Media Type":"TEXT",
+             "Created":"2022-02-07 14:12:36 UTC",
+             "Text":null
+          }
+       ],
+       "Sent Unsaved Chat History":[
+          
+       ]
+    },
+    "talk_history":{
+       "Outgoing Calls":[
+          
+       ],
+       "Incoming Calls":[
+          
+       ],
+       "Completed Calls":[
+          
+       ],
+       "Chat Sessions":[
+          
+       ],
+       "Game Sessions":[
+          
+       ]
+    },
+    "ranking":{
+       "Number of Stories Viewed":[
+          0
+       ],
+       "Content Interests":[
+          
+       ]
+    },
+    "shared_story":{
+       "Shared Story":[
+          
+       ],
+       "Spotlight History":[
+          
+       ]
+    },
+    "item_favorites":{
+       "Favorites":[
+          
+       ]
+    },
+    "connected_apps":{
+       "Login History":[
+          
+       ],
+       "Permissions":[
+          {
+             "App":"ODECoconut",
+             "Time":"2022-02-10 08:17:27 UTC",
+             "Type":"Display name, Bitmoji"
+          },
+          {
+             "App":"ODECoconut",
+             "Time":"2022-02-10 08:20:13 UTC",
+             "Type":"Display name, Bitmoji"
+          },
+          {
+             "App":"myTestApp",
+             "Time":"2022-02-10 09:40:52 UTC",
+             "Type":"Display name, Bitmoji"
+          },
+          {
+             "App":"myTestApp",
+             "Time":"2022-02-10 12:50:06 UTC",
+             "Type":"Display name, Bitmoji"
+          },
+          {
+             "App":"myTestApp",
+             "Time":"2022-02-10 06:57:33 UTC",
+             "Type":"Display name, Bitmoji"
+          },
+          {
+             "App":"myTestApp",
+             "Time":"2022-02-09 13:31:41 UTC",
+             "Type":"Display name, Bitmoji"
+          },
+          {
+             "App":"myTestApp",
+             "Time":"2022-02-10 06:46:22 UTC",
+             "Type":"Display name, Bitmoji"
+          },
+          {
+             "App":"myTestApp",
+             "Time":"2022-02-10 12:22:27 UTC",
+             "Type":"Display name, Bitmoji"
+          }
+       ],
+       "Connected Applications":[
+          {
+             "App":"myTestApp",
+             "App Status":"Connected",
+             "Last Activity":"2022-02-10 12:50:01 UTC"
+          },
+          {
+             "App":"ODECoconut",
+             "App Status":"Connected",
+             "Last Activity":"2022-02-10 12:45:12 UTC"
+          }
+       ]
+    },
+    "in_app_surveys":{
+       
+    },
+    "support_note":{
+       "Support Site":[
+          {
+             "Create Time":"2022-02-10 10:47:19 UTC",
+             "Subject":"",
+             "Message":"I am able to get user access token through the APIs given in Web section. But, how can I get user information like user display name and bitmoji avatar? Is there any API endpoint for the same?"
+          },
+          {
+             "Create Time":"2022-02-09 09:25:20 UTC",
+             "Subject":"",
+             "Message":"I am not able to get sign in screen of snapchat, when using the methods and API endpoints provided in the Web section of Login kit. I followed the documentation and executed the code in my local machine, but it gives me error message &#39;Something went wrong&#39;. I also executed the sample codes on github. The API endpoints doesn&#39;t seem to work even when called from postman. I have activated my app with the version. Have also produced a confidential client ID and client secret. Still I am failing. What can be the reason?"
+          }
+       ],
+       "In-app Report":[
+          
+       ],
+       "Shake to Report":[
+          
+       ]
+    },
+    "snap_tokens_order_history":{
+       "Token Pack Purchase Orders":[
+          
+       ],
+       "Promotions Accepted":[
+          
+       ],
+       "Item Purchase Orders":[
+          
+       ]
+    },
+    "shop_history":{
+       "":[
+          
+       ]
+    },
+    "account":{
+       "Basic Information":{
+          "Username":"vaidehiatpadkar",
+          "Name":"Vaidehi Atpadkar",
+          "Creation Date":"2022-02-07 14:12:35 UTC",
+          "PhoneNumber":"+917057648018",
+          "Carrier":"Vodafone Idea"
+       },
+       "Device Information":{
+          "Make":"",
+          "Model ID":"",
+          "Model Name":"",
+          "User Agent":"",
+          "Language":"",
+          "OS Type":"",
+          "OS Version":"",
+          "Connection Type":""
+       },
+       "Device History":[
+          
+       ],
+       "Privacy Policy and Terms of Service Acceptance History":[
+          
+       ],
+       "Custom Creative Tools Terms":[
+          
+       ],
+       "Login History":[
+          {
+             "IP":"103.53.61.162",
+             "Country":"IN",
+             "Created":"2022-02-10 09:40:40 UTC",
+             "Status":"success",
+             "Device":"Mozilla/5.0 (Linux; Android 10; Android SDK built for x86 Build/QSR1.190920.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.185 Mobile Safari/537.36"
+          },
+          {
+             "IP":"103.53.61.162",
+             "Country":"IN",
+             "Created":"2022-02-10 09:25:36 UTC",
+             "Status":"success",
+             "Device":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+          },
+          {
+             "IP":"103.53.61.162",
+             "Country":"IN",
+             "Created":"2022-02-10 08:15:21 UTC",
+             "Status":"success",
+             "Device":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+          },
+          {
+             "IP":"103.53.61.162",
+             "Country":"IN",
+             "Created":"2022-02-10 06:07:51 UTC",
+             "Status":"success",
+             "Device":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+          },
+          {
+             "IP":"103.53.61.162",
+             "Country":"IN",
+             "Created":"2022-02-09 12:48:05 UTC",
+             "Status":"success",
+             "Device":"Mozilla/5.0 (Linux; Android 9; Redmi Note 7 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.87 Mobile Safari/537.36"
+          },
+          {
+             "IP":"103.53.61.162",
+             "Country":"IN",
+             "Created":"2022-02-09 12:44:35 UTC",
+             "Status":"success",
+             "Device":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/71.0.3578.141 Safari/534.24 XiaoMi/MiuiBrowser/12.4.3-g"
+          },
+          {
+             "IP":"103.53.61.162",
+             "Country":"IN",
+             "Created":"2022-02-09 12:18:25 UTC",
+             "Status":"success",
+             "Device":"Mozilla/5.0 (Linux; Android 10; Android SDK built for x86 Build/QSR1.190920.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.185 Mobile Safari/537.36"
+          },
+          {
+             "IP":"103.53.61.162",
+             "Country":"IN",
+             "Created":"2022-02-08 13:20:39 UTC",
+             "Status":"success",
+             "Device":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+          },
+          {
+             "IP":"103.53.61.162",
+             "Country":"IN",
+             "Created":"2022-02-08 13:18:08 UTC",
+             "Status":"success",
+             "Device":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+          },
+          {
+             "IP":"103.53.61.162",
+             "Country":"IN",
+             "Created":"2022-02-07 14:14:09 UTC",
+             "Status":"success",
+             "Device":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+          },
+          {
+             "IP":"103.53.61.162",
+             "Country":"IN",
+             "Created":"2022-02-07 14:12:36 UTC",
+             "Status":"success",
+             "Device":"Snapchat/11.52.0.38 (Redmi Note 7 Pro; Android 9#V11.0.10.0.PFHINXM#28; gzip) V/MUSHROOM"
+          }
+       ]
+    },
+    "snap_map_places_history":{
+       "Snap Map Places History":[
+          
+       ]
+    },
+    "snapcode_scan_history":{
+       "Snapcode Scan History":[
+          
+       ]
+    },
+    "purchase_history":{
+       "In-App Purchases":[
+          
+       ],
+       "On Demand Geofilters":[
+          
+       ]
+    },
+    "netsuite_orders":{
+       "Orders":[
+          
+       ]
+    },
+    "location_history":{
+       "Frequent Locations":[
+          
+       ],
+       "Latest Location":[
+          {
+             "City":"",
+             "Country":"",
+             "Region":""
+          }
+       ],
+       "Home & Work":{
+          
+       },
+       "Daily Top Locations":[
+          
+       ],
+       "Top Locations Per Six-Day Period":[
+          
+       ],
+       "Location History":[
+          
+       ],
+       "Businesses and public places you may have visited":[
+          
+       ],
+       "Areas you may have visited in the last two years":[
+          
+       ]
+    },
+    "community_lenses":{
+       "Lens Submissions":[
+          
+       ]
+    },
+    "subscriptions":{
+       "Public Users":[
+          
+       ],
+       "Publishers":[
+          
+       ],
+       "Stories":[
+          
+       ],
+       "Last Active Timezone":"Asia/Calcutta",
+       "Push Notifications":[
+          
+       ],
+       "Hidden Category Sections":[
+          
+       ]
+    },
+    "custom_sounds":{
+       
+    },
+    "cameos_metadata":{
+       "Cameos Selfie":{
+          "Cameos Body Selected":"not selected",
+          "Hairstyle":"not selected",
+          "Use My Cameos Selfie":"OnlyMe"
+       }
+    },
+    "user_profile":{
+       "App Profile":{
+          "Country":"",
+          "Creation Time":"",
+          "Account Creation Country":"IN",
+          "Platform Version":"ANDROID",
+          "In-app Language":"en_GB"
+       },
+       "Demographics":{
+          "Cohort Age":"",
+          "Derived Ad Demographic":""
+       },
+       "Subscriptions":[
+          
+       ],
+       "Engagement":[
+          
+       ],
+       "Discover Channels Viewed":[
+          
+       ],
+       "Breakdown of Time Spent on App":[
+          
+       ],
+       "Ads You Interacted With":[
+          
+       ],
+       "Interest Categories":[
+          
+       ],
+       "Geographic Information":[
+          
+       ],
+       "Interactions":{
+          "Web Interactions":[
+             "snapchat.com"
+          ],
+          "App Interactions":[
+             
+          ]
+       },
+       "Off-Platform Sharing":[
+          
+       ],
+       "Mobile Ad Id":"71fefdc9-fcb6-4ff2-930e-2edb466b6ac5"
+    },
+    "email_campaign_history":{
+       "Email Campaign Subscriptions":[
+          {
+             "Email Campaign":"Creative Effects",
+             "Opt Out Status":""
+          },
+          {
+             "Email Campaign":"Product Updates",
+             "Opt Out Status":""
+          },
+          {
+             "Email Campaign":"Discover Updates",
+             "Opt Out Status":""
+          },
+          {
+             "Email Campaign":"Research Surveys",
+             "Opt Out Status":""
+          },
+          {
+             "Email Campaign":"Lens Studio",
+             "Opt Out Status":""
+          },
+          {
+             "Email Campaign":"Developer Platform Update",
+             "Opt Out Status":""
+          },
+          {
+             "Email Campaign":"Friending",
+             "Opt Out Status":""
+          }
+       ],
+       "Email Campaign History":[
+          {
+             "Email Subject":"New Day, New Lenses",
+             "Date":"2022-02-09 06:31:19 UTC"
+          }
+       ]
+    },
+    "snap_pro":{
+       "Profile":{
+          
+       },
+       "Highlights":[
+          
+       ]
+    },
+    "payments":{
+       
+    },
+    "friends":{
+       "Friends":[
+          {
+             "Username":"vaidehiatpadkar",
+             "Display Name":"Vaidehi Atpadkar",
+             "Creation Timestamp":"2022-02-07 14:12:36 UTC",
+             "Last Modified Timestamp":"2022-02-07 14:12:36 UTC",
+             "Source":"added by unknown"
+          },
+          {
+             "Username":"teamsnapchat",
+             "Display Name":"Team Snapchat",
+             "Creation Timestamp":"2022-02-07 14:12:36 UTC",
+             "Last Modified Timestamp":"2022-02-07 14:12:36 UTC",
+             "Source":"added by unknown"
+          }
+       ],
+       "Friend Requests Sent":[
+          
+       ],
+       "Blocked Users":[
+          
+       ],
+       "Deleted Friends":[
+          
+       ],
+       "Hidden Friend Suggestions":[
+          
+       ],
+       "Ignored Snapchatters":[
+          
+       ],
+       "Pending Requests":[
+          {
+             "Username":"kunalpawar9165",
+             "Display Name":"Kunal Pawar\u2764\ufe0f",
+             "Creation Timestamp":"",
+             "Last Modified Timestamp":"",
+             "Source":"added by unknown"
+          },
+          {
+             "Username":"samiksha2013",
+             "Display Name":"NeTaL Sarda",
+             "Creation Timestamp":"",
+             "Last Modified Timestamp":"",
+             "Source":"added by unknown"
+          },
+          {
+             "Username":"chigz7777",
+             "Display Name":"",
+             "Creation Timestamp":"",
+             "Last Modified Timestamp":"",
+             "Source":"added by unknown"
+          },
+          {
+             "Username":"saksham205",
+             "Display Name":"saksham",
+             "Creation Timestamp":"",
+             "Last Modified Timestamp":"",
+             "Source":"added by unknown"
+          }
+       ],
+       "Shortcuts":[
+          
+       ]
+    },
+    "account_history":{
+       "Display Name Change":[
+          {
+             "Date":"2022-02-07 14:12:38 UTC",
+             "Display Name":"Vaidehi Atpadkar"
+          }
+       ],
+       "Email Change":[
+          {
+             "Date":"2022-02-08 13:16:43 UTC",
+             "Email Address":"amitaatpadkar1@gmail.com"
+          },
+          {
+             "Date":"2022-02-08 13:16:04 UTC",
+             "Email Address":"amitaatpadkar1@gmail.com"
+          },
+          {
+             "Date":"2022-02-07 14:16:51 UTC",
+             "Email Address":"vaidehiatpadkar1@gmail.com"
+          },
+          {
+             "Date":"2022-02-07 14:16:14 UTC",
+             "Email Address":"vaidehiatpadkar1@gmail.com"
+          },
+          {
+             "Date":"2022-02-07 14:16:10 UTC",
+             "Email Address":"vaidehiatpadkar1@gmail.com"
+          }
+       ],
+       "Mobile Number Change":[
+          {
+             "Date":"2022-02-07 14:12:55 UTC",
+             "Mobile Number":"+917057648018"
+          }
+       ],
+       "Password Change":[
+          
+       ],
+       "Snapchat Linked to Bitmoji":[
+          
+       ],
+       "Spectacles":[
+          
+       ],
+       "Two-Factor Authentication":[
+          
+       ],
+       "Account deactivated / reactivated":[
+          
+       ]
+    },
+    "snap_history":{
+       "Received Snap History":[
+          {
+             "From":"teamsnapchat",
+             "Media Type":"VIDEO",
+             "Created":"2022-02-07 14:12:36 UTC"
+          }
+       ],
+       "Sent Snap History":[
+          
+       ],
+       "App Story History":[
+          
+       ]
+    },
+    "snap_ads":{
+       "Organization Members":[
+          {
+             "Display Name":"Vaidehi Atpadkar",
+             "Invitation E-mail Address":"vaidehiatpadkar1@gmail.com",
+             "Organization Name":"myTestOrg",
+             "Contact Name":"",
+             "Contact Phone Number":"",
+             "Contact E-mail Address":"",
+             "Active Roles":"business_account_manager, admin"
+          }
+       ]
+    },
+    "snap_games_and_minis":{
+       "Game Scores":[
+          
+       ],
+       "Sessions":[
+          
+       ],
+       "Lets Do It Data":[
+          
+       ],
+       "ldi_data":{
+          "Lists":[
+             
+          ],
+          "Options":[
+             
+          ]
+       }
+    },
+    "bitmoji":{
+       "Basic Information":{
+          
+       },
+       "Analytics":{
+          
+       },
+       "Terms of Service Acceptance History":[
+          
+       ],
+       "Search History":[
+          
+       ],
+       "Support Cases":[
+          
+       ],
+       "Selfies":[
+          
+       ],
+       "Keyboard Enable Full Access History (iOS only)":[
+          
+       ],
+       "Connected Apps":[
+          
+       ]
+    },
+    "story_history":{
+       "Your Story Views":[
+          
+       ],
+       "Friend and Public Story Views":[
+          
+       ]
+    },
+    "payouts":{
+       
+    },
+    "scans":{
+       "Scan History":[
+          
+       ],
+       "Voice Scan History":[
+          
+       ]
+    },
+    "memories_history":{
+       "Saved Media":[
+          
+       ]
+    },
+    "in_app_reports":{
+       "Report History":[
+          
+       ]
+    },
+    "search_history":[
+       
+    ],
+    "terms_history":{
+       "Snap Inc. Terms of Service":[
+          {
+             "Version":"Snap Privacy Policy &amp; Terms of Service - September 30, 2019",
+             "Acceptance Date":"2022-02-07 14:12:35 UTC"
+          },
+          {
+             "Version":"Snap Terms of Service &amp; Privacy Policy - November 15, 2021",
+             "Acceptance Date":"2022-02-07 14:12:35 UTC"
+          },
+          {
+             "Version":"Snap Privacy Policy &amp; Terms of Service - September 30, 2021",
+             "Acceptance Date":"2022-02-07 14:12:35 UTC"
+          }
+       ],
+       "Custom Creative Tools Terms":[
+          
+       ],
+       "Business Services Terms":[
+          
+       ],
+       "Games Terms":[
+          
+       ]
+    }
+ }

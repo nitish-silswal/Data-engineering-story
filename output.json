@@ -277,10 +277,6 @@
       {
         "city": "Ludhiana",
         "application": "Facebook"
-      },
-      {
-        "city": "Ludhiana",
-        "application": "Facebook"
       }
     ]
   },
@@ -439,8 +435,48 @@
         "application": "Instagram"
       },
       {
-        "timestamp": 1643883451,
-        "application": "Instagram"
+        "Created": "2022-02-10 09:40:40 UTC",
+        "application": "Snapchat"
+      },
+      {
+        "Created": "2022-02-10 09:25:36 UTC",
+        "application": "Snapchat"
+      },
+      {
+        "Created": "2022-02-10 08:15:21 UTC",
+        "application": "Snapchat"
+      },
+      {
+        "Created": "2022-02-10 06:07:51 UTC",
+        "application": "Snapchat"
+      },
+      {
+        "Created": "2022-02-09 12:48:05 UTC",
+        "application": "Snapchat"
+      },
+      {
+        "Created": "2022-02-09 12:44:35 UTC",
+        "application": "Snapchat"
+      },
+      {
+        "Created": "2022-02-09 12:18:25 UTC",
+        "application": "Snapchat"
+      },
+      {
+        "Created": "2022-02-08 13:20:39 UTC",
+        "application": "Snapchat"
+      },
+      {
+        "Created": "2022-02-08 13:18:08 UTC",
+        "application": "Snapchat"
+      },
+      {
+        "Created": "2022-02-07 14:14:09 UTC",
+        "application": "Snapchat"
+      },
+      {
+        "Created": "2022-02-07 14:12:36 UTC",
+        "application": "Snapchat"
       }
     ]
   },
@@ -516,9 +552,12 @@
         "application": "Facebook"
       },
       {
-        "name": "Oden Hold",
-        "timestamp": 1646829739,
-        "application": "Facebook"
+        "Display Name": "Vaidehi Atpadkar",
+        "Creation Timestamp": "2022-02-07 14:12:36 UTC"
+      },
+      {
+        "Display Name": "Team Snapchat",
+        "Creation Timestamp": "2022-02-07 14:12:36 UTC"
       }
     ]
   }

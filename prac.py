@@ -3,6 +3,8 @@ import json
 from decimal import Decimal
 
 
+all_social_apps = ["Facebook" , "Instagram" , "Snapchat" , "Reddit", "Pinterest"]
+
 fb_list = [
     [["account_information" , "name"],["profile_information" , "profile_v2" , "name" , "full_name"]],
     [["account_information" , "email_address"],["profile_information", "profile_v2", "emails" , "emails" , 0]],
@@ -26,7 +28,11 @@ insta_list = [
     [["your_posts" , "items"] , ["posts_1"] , ["title","creation_timestamp","application"]]
 ]
 
-snapchat_list = []
+snapchat_list = [
+    [["account_login_activity" , "items"] , ["account" , "Login History"] , ["Created" , "application"]],
+    [["friends" , "items"] , ["friends","Friends"] , ["Display Name" , "Creation Timestamp"]],
+    [["location_history" , "items"] , ["location_history" , "Location History"] , ["City" , "application"]]
+]
 
 def nested_get(dic, keys):
     for key in keys:
@@ -96,7 +102,6 @@ def ReplaceDecimals(obj):
 
 
 
-
 def fill_info_from_facebook(social_template_json , fb_json , fb_list):
     for i in range(len(fb_list)):
         nested_put(social_json_template , fb_json , fb_list , i , "Facebook")
@@ -106,10 +111,17 @@ def fill_info_from_instagram(social_template_json , insta_json , insta_list):
         nested_put(social_json_template , insta_json , insta_list , i , "Instagram")
 
 
+def fill_info_from_snapchat(social_template_json , snapchat_json , snapchat_list):
+    for i in range(len(snapchat_list)):
+        nested_put(social_json_template , snapchat_json , snapchat_list , i , "Snapchat")
+
+
+
+
 social_json_template = json.load(open("social_json_template.json" , "r"))
 fb_json = json.load(open("fb_json.json" , "r"))
 fill_info_from_facebook(social_json_template , fb_json, fb_list)
-out= open("output.json" , "w")
+# out= open("output.json" , "w")
 # json.dump(social_json_template , out , indent = 2)
 
 
@@ -117,4 +129,11 @@ out= open("output.json" , "w")
 insta_json = json.load(open("insta_json.json" , "r"))
 fill_info_from_instagram(social_json_template , insta_json, insta_list)
 # out= open("output.json" , "w")
+# json.dump(social_json_template , out , indent = 2)
+
+
+# social_json_template = json.load(open("social_json_template.json" , "r"))
+snapchat_json = json.load(open("snapchat_json.json" , "r"))
+fill_info_from_snapchat(social_json_template , snapchat_json, snapchat_list)
+out= open("output.json" , "w")
 json.dump(social_json_template , out , indent = 2)
