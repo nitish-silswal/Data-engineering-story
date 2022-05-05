@@ -1,120 +1,424 @@
 {
-    "account_information": {
-        "name": "Divyasheel Odedev",
-        "email_address": "divyasheel.kumar@odeinfinity.com",
-        "gender": "MALE",
-        "phone_number": "+918437151118",
-        "primary_location": ""
-    },
-    "advertisement": {
-        "advertiser_names": [
-            {
-                "advertiser_name": "Flipkart Internet Private Limited"
-            },
-            {
-                "advertiser_name": "BookMyShow"
-            },
-            {
-                "advertiser_name": "Atlassian"
-            },
-            {
-                "advertiser_name": "LazyPay"
-            },
-            {
-                "advertiser_name": "Paytm"
-            },
-            {
-                "advertiser_name": "IFFCO"
-            },
-            {
-                "advertiser_name": "UpStart & CodeUp"
-            },
-            {
-                "advertiser_name": "Simpl"
-            },
-            {
-                "advertiser_name": "Domino's Pizza India"
-            },
-            {
-                "advertiser_name": "SproutUp"
-            },
-            {
-                "advertiser_name": "LinkedIn"
-            },
-            {
-                "advertiser_name": "Parse"
-            },
-            {
-                "advertiser_name": "Meta for Developers"
-            },
-            {
-                "advertiser_name": "Killer1301"
-            },
-            {
-                "advertiser_name": "Hyde Park Picnics"
-            },
-            {
-                "advertiser_name": "Instagram for Business"
-            },
-            {
-                "advertiser_name": "Frank the Tank"
-            },
-            {
-                "advertiser_name": "Meta for Business"
-            },
-            {
-                "advertiser_name": "Targeting Dogfooding"
-            },
-            {
-                "advertiser_name": "Meta"
-            }
-        ]
-    },
-    "profile_updates": {
-        "items": [
-            {
-                "changed_value": "",
-                "timestamp": "",
-                "application": ""
-            }
-        ]
-    },
-    "location_history": {
-        "items": []
-    },
-    "your_search_history": {
-        "items": [
-            {
-                "title": "",
-                "timestamp": "",
-                "application": ""
-            }
-        ]
-    },
-    "account_login_activity": {
-        "items": [
-            {
-                "application": "",
-                "timestamp": ""
-            }
-        ]
-    },
-    "your_posts": {
-        "items": [
-            {
-                "title": "",
-                "timestamp": "",
-                "application": ""
-            }
-        ]
-    },
-    "friends": {
-        "items": [
-            {
-                "name": "",
-                "timestamp": "",
-                "application": ""
-            }
-        ]
-    }
+  "account_information": {
+    "name": "Divyasheel Odedev",
+    "email_address": "divyasheel.kumar@odeinfinity.com",
+    "gender": "MALE",
+    "phone_number": "+918437151118",
+    "primary_location": ""
+  },
+  "advertisement": {
+    "advertiser_names": [
+      {
+        "advertiser_name": "Flipkart Internet Private Limited"
+      },
+      {
+        "advertiser_name": "BookMyShow"
+      },
+      {
+        "advertiser_name": "Atlassian"
+      },
+      {
+        "advertiser_name": "LazyPay"
+      },
+      {
+        "advertiser_name": "Paytm"
+      },
+      {
+        "advertiser_name": "IFFCO"
+      },
+      {
+        "advertiser_name": "UpStart & CodeUp"
+      },
+      {
+        "advertiser_name": "Simpl"
+      },
+      {
+        "advertiser_name": "Domino's Pizza India"
+      },
+      {
+        "advertiser_name": "SproutUp"
+      },
+      {
+        "advertiser_name": "LinkedIn"
+      },
+      {
+        "advertiser_name": "Parse"
+      },
+      {
+        "advertiser_name": "Meta for Developers"
+      },
+      {
+        "advertiser_name": "Killer1301"
+      },
+      {
+        "advertiser_name": "Hyde Park Picnics"
+      },
+      {
+        "advertiser_name": "Instagram for Business"
+      },
+      {
+        "advertiser_name": "Frank the Tank"
+      },
+      {
+        "advertiser_name": "Meta for Business"
+      },
+      {
+        "advertiser_name": "Targeting Dogfooding"
+      },
+      {
+        "advertiser_name": "Meta"
+      }
+    ]
+  },
+  "profile_updates": {
+    "items": [
+      {
+        "timestamp": 1646906053,
+        "title": "Divyasheel Odedev updated his profile picture."
+      }
+    ]
+  },
+  "location_history": {
+    "items": [
+      {
+        "city": "Bangalore"
+      },
+      {
+        "city": "Bangalore"
+      },
+      {
+        "city": "Shirur"
+      },
+      {
+        "city": "Shirur"
+      },
+      {
+        "city": "Shirur"
+      },
+      {
+        "city": "Shirur"
+      },
+      {
+        "city": "Shirur"
+      },
+      {
+        "city": "Shirur"
+      },
+      {
+        "city": "Shirur"
+      },
+      {
+        "city": "Shirur"
+      },
+      {
+        "city": "Shirur"
+      },
+      {
+        "city": "Shirur"
+      },
+      {
+        "city": "Shirur"
+      },
+      {
+        "city": "Bilaspur"
+      },
+      {
+        "city": "Bilaspur"
+      },
+      {
+        "city": "Raipur"
+      },
+      {
+        "city": "Bhilai"
+      },
+      {
+        "city": "Bhilai"
+      },
+      {
+        "city": "Bhilai"
+      },
+      {
+        "city": "Bhilai"
+      },
+      {
+        "city": "Bhilai"
+      },
+      {
+        "city": "Bhilai"
+      },
+      {
+        "city": "Bhilai"
+      },
+      {
+        "city": "Bhilai"
+      },
+      {
+        "city": "Bhilai"
+      },
+      {
+        "city": "Bhilai"
+      },
+      {
+        "city": "Bhilai"
+      },
+      {
+        "city": "Shirur"
+      },
+      {
+        "city": "Shirur"
+      },
+      {
+        "city": "Ludhiana"
+      },
+      {
+        "city": "Ludhiana"
+      },
+      {
+        "city": "Ludhiana"
+      },
+      {
+        "city": "Ludhiana"
+      },
+      {
+        "city": "Ludhiana"
+      },
+      {
+        "city": "Ludhiana"
+      },
+      {
+        "city": "Ludhiana"
+      },
+      {
+        "city": "Ludhiana"
+      },
+      {
+        "city": "Ludhiana"
+      },
+      {
+        "city": "Ludhiana"
+      },
+      {
+        "city": "Ludhiana"
+      },
+      {
+        "city": "Ludhiana"
+      }
+    ]
+  },
+  "your_search_history": {
+    "items": [
+      {
+        "title": "You searched Facebook",
+        "timestamp": 1646829706,
+        "application": "Facebook"
+      },
+      {
+        "title": "You searched Facebook",
+        "timestamp": 1646829710,
+        "application": "Facebook"
+      },
+      {
+        "title": "You searched Facebook",
+        "timestamp": 1647341105,
+        "application": "Facebook"
+      },
+      {
+        "title": "You searched Facebook",
+        "timestamp": 1647341120,
+        "application": "Facebook"
+      }
+    ]
+  },
+  "account_login_activity": {
+    "items": [
+      {
+        "timestamp": 1647840593,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1647803139,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1647801679,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1647798413,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1647796662,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1647634146,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1647405279,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1647405278,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1647339731,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1647319177,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1647252798,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1647242044,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1647232849,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1646904762,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1646890036,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1646890035,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1646829159,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1646042057,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1646041366,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1645102580,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1645100575,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1643883418,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1643883406,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1643883321,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1643883269,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1643883192,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1643883132,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1643882764,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1643882618,
+        "application": "Facebook"
+      },
+      {
+        "timestamp": 1643882548,
+        "application": "Facebook"
+      }
+    ]
+  },
+  "your_posts": {
+    "items": [
+      {
+        "title": "Divyasheel Odedev updated his status.",
+        "timestamp": 1646829452,
+        "application": "Facebook"
+      },
+      {
+        "title": "Divyasheel Odedev updated his status.",
+        "timestamp": 1646895781,
+        "application": "Facebook"
+      },
+      {
+        "title": "Divyasheel Odedev updated his status.",
+        "timestamp": 1646907738,
+        "application": "Facebook"
+      },
+      {
+        "title": "Divyasheel Odedev updated his status.",
+        "timestamp": 1646907989,
+        "application": "Facebook"
+      },
+      {
+        "title": "Divyasheel Odedev updated his status.",
+        "timestamp": 1646908177,
+        "application": "Facebook"
+      },
+      {
+        "title": null,
+        "timestamp": 1647236736,
+        "application": "Facebook"
+      },
+      {
+        "title": null,
+        "timestamp": 1647244690,
+        "application": "Facebook"
+      },
+      {
+        "title": null,
+        "timestamp": 1647253136,
+        "application": "Facebook"
+      },
+      {
+        "title": "Divyasheel Odedev updated his status.",
+        "timestamp": 1647340857,
+        "application": "Facebook"
+      },
+      {
+        "title": null,
+        "timestamp": 1647355428,
+        "application": "Facebook"
+      }
+    ]
+  },
+  "friends": {
+    "items": [
+      {
+        "name": "Yatharth Mogra",
+        "timestamp": 1647340627,
+        "application": "Facebook"
+      },
+      {
+        "name": "Oden Hold",
+        "timestamp": 1646829739,
+        "application": "Facebook"
+      }
+    ]
+  }
 }
