@@ -34,16 +34,21 @@ snapchat_list = [
     [["location_history" , "items"] , ["location_history" , "Location History"] , ["City" , "application"]]
 ]
 
+
+
+
+
+
 def nested_get(dic, keys):
     for key in keys:
         dic = dic[key]
     return dic
 
+
+
 def nested_put(social_dic, app_dic , app_list , curr_pos , app_name):
     social_keys = app_list[curr_pos][0]
     app_keys = app_list[curr_pos][1]
-
-
     for i in range(len(social_keys) - 1):
         social_dic = social_dic[social_keys[i]]
     # simply a string type, place the extracted value
@@ -56,19 +61,18 @@ def nested_put(social_dic, app_dic , app_list , curr_pos , app_name):
             if type(app_dic[app_keys[i]]) != list:
                 app_dic = app_dic[app_keys[i]]
                 continue
-
             #list encountered in app_dic
-            extract_fields = app_list[curr_pos][2] # fields to plucked out from the app_dic (fb DSR json)
+            extract_fields = app_list[curr_pos][2] # fields to plucked out from the app_dic (DSR json of current application)
             if len(social_dic[social_keys[-1]]):
-                social_dic[social_keys[-1]].pop()
+                social_dic[social_keys[-1]].pop()  # remove the initial dummy data present in the social_dic (only put there for defining the format)
             for el in app_dic[app_keys[i]]:  
                 obj = {}
                 for elem in extract_fields:
-                    if elem in el:
-                        obj[elem] = el[elem]
-                    elif elem == "application":
-                        obj[elem] = app_name
-                    elif ";" in elem:
+                    if elem in el:                  # if elem is a key in both, extract the value and place directly
+                        obj[elem] = el[elem]       
+                    elif elem == "application":     # if elem is "application", simply place the name of the application as it is with "application" as the key
+                        obj[elem] = app_name        
+                    elif ";" in elem:               
                         temp_elem = copy.deepcopy(elem)
                         temp_el = copy.deepcopy(el)
                         temp_elem = temp_elem.split(";")
