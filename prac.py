@@ -38,7 +38,7 @@ snapchat_list = [
 
 
 
-
+# get the sub-dictionary (from within the nesting), having the passed on key value
 def nested_get(dic, keys):
     for key in keys:
         dic = dic[key]
@@ -46,6 +46,7 @@ def nested_get(dic, keys):
 
 
 
+# fill the data from app's DSR dictionary to Social blueprint json
 def nested_put(social_dic, app_dic , app_list , curr_pos , app_name):
     social_keys = app_list[curr_pos][0]
     app_keys = app_list[curr_pos][1]
