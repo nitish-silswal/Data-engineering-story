@@ -1,3 +1,4 @@
+import copy
 import json
 from decimal import Decimal
 
@@ -8,9 +9,9 @@ fb_list = [
     [["account_information","gender"],["profile_information","profile_v2","gender","gender_option"]],
     [["account_information" , "phone_number"],["profile_information" , "profile_v2" , "phone_numbers", 0 , "phone_number"]],
     [["account_information" , "primary_location" , "items"] , ["primary_location" , "primary_location_v2" , "zipcode"] , ["zipcode"]],
-    [["advertisement" , "advertiser_names"],["advertisers_using_your_activity_or_information" , "custom_audiences_all_types_v2"] , ["advertiser_name"]],
+    [["advertisement" , "items"],["advertisers_using_your_activity_or_information" , "custom_audiences_all_types_v2"] , ["advertiser_name" , "application"]],
     [["profile_updates", "items"],["profile_update_history" , "profile_updates_v2"] , ["timestamp" , "title"]],
-    [["location_history" , "items"] , ["account_activity" , "account_activity_v2"] , ["city"]],
+    [["location_history" , "items"] , ["account_activity" , "account_activity_v2"] , ["city" , "application"]],
     [["your_search_history" , "items"] , ["your_search_history" , "searches_v2"] , ["title" , "timestamp","application"]],
     [["account_login_activity" , "items"] , ["logins_and_logouts" , "account_accesses_v2"] , ["timestamp" , "application"]],
     [["your_posts" , "items"] , ["your_posts_1"] , ["title" , "timestamp" , "application"]],
@@ -18,6 +19,14 @@ fb_list = [
 ]
 
 
+insta_list = [
+    [["advertisement" , "items"] , ["advertisers_using_your_activity_or_information" , "ig_custom_audiences_all_types"] , ["advertiser_name" , "application"]],
+    [["profile_updates" , "items"] , ["profile_changes", "profile_profile_change"] , ["string_map_data;change date;timestamp" , "application"]],
+    [["account_login_activity" , "items"] , ["login_activity" , "account_history_login_history"] , ["string_map_data;time;timestamp" , "application"]],
+    [["your_posts" , "items"] , ["posts_1"] , ["title","creation_timestamp","application"]]
+]
+
+snapchat_list = []
 
 def nested_get(dic, keys):
     for key in keys:
@@ -53,6 +62,14 @@ def nested_put(social_dic, app_dic , app_list , curr_pos , app_name):
                         obj[elem] = el[elem]
                     elif elem == "application":
                         obj[elem] = app_name
+                    elif ";" in elem:
+                        temp_elem = copy.deepcopy(elem)
+                        temp_el = copy.deepcopy(el)
+                        temp_elem = temp_elem.split(";")
+                        for temp_key in temp_elem:
+                            temp_el = temp_el[temp_key]
+                        obj[temp_elem[-1]] = temp_el
+
                     else: # field not present in the dic
                         obj[elem] = None
                 social_dic[social_keys[-1]].append(obj)             
@@ -84,9 +101,20 @@ def fill_info_from_facebook(social_template_json , fb_json , fb_list):
     for i in range(len(fb_list)):
         nested_put(social_json_template , fb_json , fb_list , i , "Facebook")
 
+def fill_info_from_instagram(social_template_json , insta_json , insta_list):
+    for i in range(len(insta_list)):
+        nested_put(social_json_template , insta_json , insta_list , i , "Instagram")
+
 
 social_json_template = json.load(open("social_json_template.json" , "r"))
 fb_json = json.load(open("fb_json.json" , "r"))
 fill_info_from_facebook(social_json_template , fb_json, fb_list)
 out= open("output.json" , "w")
+# json.dump(social_json_template , out , indent = 2)
+
+
+# social_json_template = json.load(open("social_json_template.json" , "r"))
+insta_json = json.load(open("insta_json.json" , "r"))
+fill_info_from_instagram(social_json_template , insta_json, insta_list)
+# out= open("output.json" , "w")
 json.dump(social_json_template , out , indent = 2)

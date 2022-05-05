@@ -1,0 +1,566 @@
+{
+    "advertisers_using_your_activity_or_information":{
+       "ig_custom_audiences_all_types":[
+          {
+             "advertiser_name":"IFFCO",
+             "has_data_file_custom_audience":true,
+             "has_remarketing_custom_audience":false,
+             "has_in_person_store_visit":false
+          },
+          {
+             "advertiser_name":"Atlassian",
+             "has_data_file_custom_audience":true,
+             "has_remarketing_custom_audience":false,
+             "has_in_person_store_visit":false
+          },
+          {
+             "advertiser_name":"Domino's Pizza India",
+             "has_data_file_custom_audience":true,
+             "has_remarketing_custom_audience":false,
+             "has_in_person_store_visit":false
+          },
+          {
+             "advertiser_name":"Paytm",
+             "has_data_file_custom_audience":true,
+             "has_remarketing_custom_audience":false,
+             "has_in_person_store_visit":false
+          }
+       ]
+    },
+    "eligibility":{
+       "monetization_eligibility":[
+          {
+             "title":"",
+             "media_map_data":{
+                
+             },
+             "string_map_data":{
+                "product name":{
+                   "href":"",
+                   "value":"BRANDED CONTENT",
+                   "timestamp":0
+                },
+                "decision":{
+                   "href":"",
+                   "value":"Not Eligible",
+                   "timestamp":0
+                },
+                "reason":{
+                   "href":"",
+                   "value":"An Established Presence\nThese standards define our requirements for how long your account has been active and that you have a sufficient number of followers.",
+                   "timestamp":0
+                }
+             }
+          }
+       ]
+    },
+    "account_information":{
+       "profile_account_insights":[
+          {
+             "title":"",
+             "media_map_data":{
+                
+             },
+             "string_map_data":{
+                "contact syncing":{
+                   "href":"",
+                   "value":"False",
+                   "timestamp":0
+                },
+                "has shared live video":{
+                   "href":"",
+                   "value":"False",
+                   "timestamp":0
+                },
+                "last login":{
+                   "href":"",
+                   "value":"",
+                   "timestamp":1645163725
+                },
+                "last logout":{
+                   "href":"",
+                   "value":"",
+                   "timestamp":0
+                },
+                "first story time":{
+                   "href":"",
+                   "value":"",
+                   "timestamp":0
+                },
+                "last story time":{
+                   "href":"",
+                   "value":"",
+                   "timestamp":0
+                },
+                "first close friends story time":{
+                   "href":"",
+                   "value":"",
+                   "timestamp":0
+                }
+             }
+          }
+       ]
+    },
+    "linked_meta_accounts":{
+       "profile_linked_meta_accounts":[
+          {
+             "title":"",
+             "media_map_data":{
+                
+             },
+             "string_map_data":{
+                "account type":{
+                   "href":"",
+                   "value":"Facebook",
+                   "timestamp":0
+                },
+                "user name":{
+                   "href":"",
+                   "value":"Divyasheel Odedev",
+                   "timestamp":0
+                },
+                "identifier":{
+                   "href":"",
+                   "value":"100077669596057",
+                   "timestamp":0
+                },
+                "email address":{
+                   "href":"",
+                   "value":"divyasheel.kumar@odeinfinity.com",
+                   "timestamp":0
+                },
+                "phone number":{
+                   "href":"",
+                   "value":"+918437151118",
+                   "timestamp":0
+                }
+             }
+          }
+       ]
+    },
+    "personal_information":{
+       "profile_user":[
+          {
+             "title":"User information",
+             "media_map_data":{
+                
+             },
+             "string_map_data":{
+                "email address":{
+                   "href":"",
+                   "value":"divyasheel.kumar@odeinfinity.com",
+                   "timestamp":0
+                },
+                "phone number confirmed":{
+                   "href":"",
+                   "value":"False",
+                   "timestamp":0
+                },
+                "username":{
+                   "href":"",
+                   "value":"divyasheelodedev",
+                   "timestamp":0
+                },
+                "name":{
+                   "href":"",
+                   "value":"Divyasheel Odedev",
+                   "timestamp":0
+                },
+                "gender":{
+                   "href":"",
+                   "value":"unspecified",
+                   "timestamp":0
+                },
+                "private account":{
+                   "href":"",
+                   "value":"False",
+                   "timestamp":0
+                }
+             }
+          }
+       ]
+    },
+    "profile_changes":{
+       "profile_profile_change":[
+          {
+             "title":"Profile change",
+             "media_map_data":{
+                
+             },
+             "string_map_data":{
+                "changed":{
+                   "href":"",
+                   "value":"Email",
+                   "timestamp":0
+                },
+                "previous value":{
+                   "href":"",
+                   "value":"",
+                   "timestamp":0
+                },
+                "new value":{
+                   "href":"",
+                   "value":"divyasheel.kumar@odeinfinity.com",
+                   "timestamp":0
+                },
+                "change date":{
+                   "href":"",
+                   "value":"",
+                   "timestamp":1643883449
+                }
+             }
+          }
+       ]
+    },
+    "active_apps":{
+       "apps_and_websites_active_apps":[
+          {
+             "title":"",
+             "media_map_data":{
+                
+             },
+             "string_map_data":{
+                "app name":{
+                   "href":"",
+                   "value":"ODE",
+                   "timestamp":0
+                },
+                "added on":{
+                   "href":"",
+                   "value":"",
+                   "timestamp":1645165237
+                },
+                "last active on":{
+                   "href":"",
+                   "value":"",
+                   "timestamp":1645165237
+                },
+                "user id":{
+                   "href":"",
+                   "value":"5105938512761097",
+                   "timestamp":0
+                }
+             }
+          }
+       ]
+    },
+    "account_based_in":{
+       "inferred_data_primary_location":[
+          {
+             "title":"",
+             "media_map_data":{
+                
+             },
+             "string_map_data":{
+                "town/city name":{
+                   "href":"",
+                   "value":"Khanna, India",
+                   "timestamp":0
+                }
+             }
+          }
+       ]
+    },
+    "posts_viewed":{
+       "impressions_history_posts_seen":[
+          {
+             "title":"",
+             "media_map_data":{
+                
+             },
+             "string_map_data":{
+                "author":{
+                   "href":"",
+                   "value":"divyasheelodedev",
+                   "timestamp":0
+                },
+                "time":{
+                   "href":"",
+                   "value":"",
+                   "timestamp":1645417528
+                }
+             }
+          }
+       ]
+    },
+    "posts_1":[
+       {
+          "media":[
+             {
+                "uri":"media/posts/202202/274258341_999556617643618_7417489381844600689_n_17901433091412559.jpg",
+                "creation_timestamp":1645170471,
+                "title":""
+             },
+             {
+                "uri":"media/posts/202202/274171719_342498861088527_849077583680846997_n_18080185990295354.jpg",
+                "creation_timestamp":1645170471,
+                "title":""
+             },
+             {
+                "uri":"media/posts/202202/274263176_6969257619811796_541386671674959010_n_17918332676129459.jpg",
+                "creation_timestamp":1645170471,
+                "title":""
+             }
+          ],
+          "title":"Checking carousel album media !",
+          "creation_timestamp":1645170471
+       },
+       {
+          "media":[
+             {
+                "uri":"media/posts/202202/274253355_1286180191868189_5346519187946520879_n_18029263972340333.jpg",
+                "creation_timestamp":1645167953,
+                "media_metadata":{
+                   "photo_metadata":{
+                      "exif_data":[
+                         {
+                            "source_type":"library"
+                         }
+                      ]
+                   }
+                },
+                "title":"A test caption for a test post."
+             }
+          ]
+       },
+       {
+          "media":[
+             {
+                "uri":"media/posts/202202/274171038_122110417040473_5542652531470911594_n_18116397154276749.jpg",
+                "creation_timestamp":1645167875,
+                "media_metadata":{
+                   "photo_metadata":{
+                      "exif_data":[
+                         {
+                            "source_type":"library"
+                         }
+                      ]
+                   }
+                },
+                "title":"Just a random post."
+             }
+          ]
+       }
+    ],
+    "liked_posts":{
+       "likes_media_likes":[
+          {
+             "title":"divyasheelodedev",
+             "media_list_data":[
+                
+             ],
+             "string_list_data":[
+                {
+                   "href":"https://www.instagram.com/p/CaHA761AEXM/",
+                   "value":"\u00f0\u009f\u0091\u008d",
+                   "timestamp":1645417518
+                }
+             ]
+          },
+          {
+             "title":"divyasheelodedev",
+             "media_list_data":[
+                
+             ],
+             "string_list_data":[
+                {
+                   "href":"https://www.instagram.com/p/CaHBFaiglCP/",
+                   "value":"\u00f0\u009f\u0091\u008d",
+                   "timestamp":1645417517
+                }
+             ]
+          },
+          {
+             "title":"divyasheelodedev",
+             "media_list_data":[
+                
+             ],
+             "string_list_data":[
+                {
+                   "href":"https://www.instagram.com/p/CaHF43OAExu/",
+                   "value":"\u00f0\u009f\u0091\u008d",
+                   "timestamp":1645417514
+                }
+             ]
+          }
+       ]
+    },
+    "login_activity":{
+       "account_history_login_history":[
+          {
+             "title":"2022-02-18T05:55:24+00:00",
+             "media_map_data":{
+                
+             },
+             "string_map_data":{
+                "cookie name":{
+                   "href":"",
+                   "value":"*************************ym1",
+                   "timestamp":0
+                },
+                "ip address":{
+                   "href":"",
+                   "value":"103.53.61.162",
+                   "timestamp":0
+                },
+                "language code":{
+                   "href":"",
+                   "value":"en",
+                   "timestamp":0
+                },
+                "time":{
+                   "href":"",
+                   "value":"",
+                   "timestamp":1645163724
+                },
+                "user agent":{
+                   "href":"",
+                   "value":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36",
+                   "timestamp":0
+                }
+             }
+          },
+          {
+             "title":"2022-02-17T12:12:20+00:00",
+             "media_map_data":{
+                
+             },
+             "string_map_data":{
+                "cookie name":{
+                   "href":"",
+                   "value":"*************************8Ei",
+                   "timestamp":0
+                },
+                "ip address":{
+                   "href":"",
+                   "value":"2405:201:500c:81f:97e4:e394:f702:f5f7",
+                   "timestamp":0
+                },
+                "language code":{
+                   "href":"",
+                   "value":"en-gb",
+                   "timestamp":0
+                },
+                "time":{
+                   "href":"",
+                   "value":"",
+                   "timestamp":1645099940
+                },
+                "user agent":{
+                   "href":"",
+                   "value":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36",
+                   "timestamp":0
+                }
+             }
+          },
+          {
+             "title":"2022-02-03T10:17:35+00:00",
+             "media_map_data":{
+                
+             },
+             "string_map_data":{
+                "cookie name":{
+                   "href":"",
+                   "value":"*************************220",
+                   "timestamp":0
+                },
+                "ip address":{
+                   "href":"",
+                   "value":"2405:201:500c:65:bd07:21f7:a286:8939",
+                   "timestamp":0
+                },
+                "language code":{
+                   "href":"",
+                   "value":"en-gb",
+                   "timestamp":0
+                },
+                "time":{
+                   "href":"",
+                   "value":"",
+                   "timestamp":1643883455
+                },
+                "user agent":{
+                   "href":"",
+                   "value":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+                   "timestamp":0
+                }
+             }
+          },
+          {
+             "title":"2022-02-03T10:17:31+00:00",
+             "media_map_data":{
+                
+             },
+             "string_map_data":{
+                "cookie name":{
+                   "href":"",
+                   "value":"*************************220",
+                   "timestamp":0
+                },
+                "ip address":{
+                   "href":"",
+                   "value":"2405:201:500c:65:bd07:21f7:a286:8939",
+                   "timestamp":0
+                },
+                "language code":{
+                   "href":"",
+                   "value":"en-gb",
+                   "timestamp":0
+                },
+                "time":{
+                   "href":"",
+                   "value":"",
+                   "timestamp":1643883451
+                },
+                "user agent":{
+                   "href":"",
+                   "value":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+                   "timestamp":0
+                }
+             }
+          }
+       ]
+    },
+    "signup_information":{
+       "account_history_registration_info":[
+          {
+             "title":"",
+             "media_map_data":{
+                
+             },
+             "string_map_data":{
+                "username":{
+                   "href":"",
+                   "value":"Divyasheel Odedev",
+                   "timestamp":0
+                },
+                "ip address":{
+                   "href":"",
+                   "value":"2405:201:500c:65:bd07:21f7:a286:8939",
+                   "timestamp":0
+                },
+                "time":{
+                   "href":"",
+                   "value":"",
+                   "timestamp":1643883451
+                },
+                "email address":{
+                   "href":"",
+                   "value":"divyasheel.kumar@odeinfinity.com",
+                   "timestamp":0
+                },
+                "phone number":{
+                   "href":"",
+                   "value":"",
+                   "timestamp":0
+                },
+                "device":{
+                   "href":"",
+                   "value":"",
+                   "timestamp":0
+                }
+             }
+          }
+       ]
+    }
+ }

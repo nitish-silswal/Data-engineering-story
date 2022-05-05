@@ -12,10 +12,16 @@
                 }
             ]
         }
+        
     },
 
     "advertisement" : {
-        "advertiser_names" : []
+        "items" : [
+            {
+                "advertiser_name" : "",
+                "application" : ""
+            }
+        ]
     },
 
     "profile_updates" : {
