@@ -72,7 +72,7 @@ def nested_put(social_dic, app_dic , app_list , curr_pos , app_name):
                         obj[elem] = el[elem]       
                     elif elem == "application":     # if elem is "application", simply place the name of the application as it is with "application" as the key
                         obj[elem] = app_name        
-                    elif ";" in elem:               
+                    elif ";" in elem:               # split using ";" as a delimiter, and extract out the data from the last element of the nesting/list
                         temp_elem = copy.deepcopy(elem)
                         temp_el = copy.deepcopy(el)
                         temp_elem = temp_elem.split(";")
@@ -87,6 +87,7 @@ def nested_put(social_dic, app_dic , app_list , curr_pos , app_name):
                                 
 
 
+# function to ensure data works after getting pulled from DynamoDB (helps prevent AWS related data format issues)
 def ReplaceDecimals(obj):
     if isinstance(obj, list):
         for i in range(len(obj)):
@@ -106,38 +107,40 @@ def ReplaceDecimals(obj):
 
 
 
+# fill data from Facebook DSR json into the Standard Social json blueprint/template
 def fill_info_from_facebook(social_template_json , fb_json , fb_list):
     for i in range(len(fb_list)):
         nested_put(social_json_template , fb_json , fb_list , i , "Facebook")
 
+# fill data from Instagram DSR json into the Standard Social json blueprint/template
 def fill_info_from_instagram(social_template_json , insta_json , insta_list):
     for i in range(len(insta_list)):
         nested_put(social_json_template , insta_json , insta_list , i , "Instagram")
 
-
+# fill data from Snapchat DSR json into the Standard Social json blueprint/template
 def fill_info_from_snapchat(social_template_json , snapchat_json , snapchat_list):
     for i in range(len(snapchat_list)):
         nested_put(social_json_template , snapchat_json , snapchat_list , i , "Snapchat")
 
 
 
-
-social_json_template = json.load(open("social_json_template.json" , "r"))
-fb_json = json.load(open("fb_json.json" , "r"))
-fill_info_from_facebook(social_json_template , fb_json, fb_list)
-# out= open("output.json" , "w")
-# json.dump(social_json_template , out , indent = 2)
-
-
-# social_json_template = json.load(open("social_json_template.json" , "r"))
-insta_json = json.load(open("insta_json.json" , "r"))
-fill_info_from_instagram(social_json_template , insta_json, insta_list)
-# out= open("output.json" , "w")
-# json.dump(social_json_template , out , indent = 2)
+if __name__ == "__main__":
+    social_json_template = json.load(open("social_json_template.json" , "r"))
+    fb_json = json.load(open("fb_json.json" , "r"))
+    fill_info_from_facebook(social_json_template , fb_json, fb_list)
+    # out= open("output.json" , "w")
+    # json.dump(social_json_template , out , indent = 2)
 
 
-# social_json_template = json.load(open("social_json_template.json" , "r"))
-snapchat_json = json.load(open("snapchat_json.json" , "r"))
-fill_info_from_snapchat(social_json_template , snapchat_json, snapchat_list)
-out= open("output.json" , "w")
-json.dump(social_json_template , out , indent = 2)
+    # social_json_template = json.load(open("social_json_template.json" , "r"))
+    insta_json = json.load(open("insta_json.json" , "r"))
+    fill_info_from_instagram(social_json_template , insta_json, insta_list)
+    # out= open("output.json" , "w")
+    # json.dump(social_json_template , out , indent = 2)
+
+
+    # social_json_template = json.load(open("social_json_template.json" , "r"))
+    snapchat_json = json.load(open("snapchat_json.json" , "r"))
+    fill_info_from_snapchat(social_json_template , snapchat_json, snapchat_list)
+    out= open("output.json" , "w")
+    json.dump(social_json_template , out , indent = 2)
