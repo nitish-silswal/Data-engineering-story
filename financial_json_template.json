@@ -1,0 +1,25 @@
+{
+    "account_information" : {
+        "name" : "",
+        "email_address" : "",
+        "email_verified" : "",
+        "phone_number" : "",
+        "primary_location" : {
+            "city" : "",
+            "state" : "",
+            "country" : ""
+        },
+        "language" : "",
+        "device_type" : ""
+    },
+
+    "app_usage_information" : [
+        {
+            "application" : "",
+            "usageTime" : "",
+            "first_used" : "",
+            "last_used" : "",
+            "signup_platform" : ""
+        }
+    ]
+}

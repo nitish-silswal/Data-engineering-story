@@ -1,6 +1,12 @@
+from asyncio import current_task
 import copy
 import json
 from decimal import Decimal
+import calendar
+import time
+
+
+
 
 
 all_social_apps = ["Facebook" , "Instagram" , "Snapchat" , "Reddit", "Pinterest"]
@@ -155,6 +161,9 @@ if __name__ == "__main__":
         print("No SNAPCHAT file")
     out= open("output.json" , "w")
     json.dump(social_json_template , out , indent = 2)
+
+    current_timestamp = calendar.timegm(time.gmtime())
+    print("timestamp:-", current_timestamp)
 
 
 

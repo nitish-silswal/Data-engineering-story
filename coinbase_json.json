@@ -1,0 +1,41 @@
+{
+    "coinbase_data.txt":{
+       "coinbase_data":{
+          "Names":"Developer Ode",
+          "Phone numbers":"7057648018, 8437151118",
+          "Emails":"developer@odeinfinity.com",
+          "Country code":"IN",
+          "usageTime":"18134825136115",
+          "firstSeen":"2022-03-16 07:09:31 UTC",
+          "lastSeen":"2022-04-14 06:42:58 UTC",
+          "lastLocationLat":"19.861",
+          "lastLocationLong":"75.3929",
+          "user_id":"388ebae0-1a69-5327-bc85-be2469f0c127",
+          "version":"84a2fe556a0360b512f8087e88b049ff7481b6ac",
+          "country":"India",
+          "language":"English",
+          "ip_address":"45.116.45.237",
+          "platform":"Web",
+          "os":"Chrome WebView 100",
+          "device":"Android",
+          "device_type":"Android",
+          "start_version":"b230cad4087797a0421b3c434ad8af61006bada7",
+          "city":"Aurangabad",
+          "region":"Maharashtra",
+          "num_events":"181",
+          "num_sessions":"34",
+          "first_used":"2022-03-16",
+          "last_used":"2022-04-14",
+          "email_verified":"True",
+          "country_subregion":"Southern Asia",
+          "referring_domain":"www.coinbase.com",
+          "initial_referrer":"https://www.coinbase.com/oauth/authorize/oauth_signin?client_id=af3445d3aa7f34dadc0ca903c051352897b04fa2ac722e0378ecf6e7b07acd34&redirect_uri=https%3A%2F%2Fwww.odeinfinity.com%2F&response_type=code&scope=wallet%3Aaccounts%3Aread+wallet%3Aaddresses%3Aread+wallet%3Abuys%3Aread+wallet%3Adeposits%3Aread+wallet%3Anotifications%3Aread+wallet%3Apayment-methods%3Aread+wallet%3Asells%3Aread+wallet%3Atransactions%3Aread+wallet%3Auser%3Aread+wallet%3Auser%3Aemail+wallet%3Awithdrawals%3Aread&state=odeinfinity",
+          "country_code":"IN",
+          "signup_at":"2022-03-16T00:09:56-07:00",
+          "referrer":"https://www.coinbase.com/",
+          "country_region":"Asia",
+          "signup_platform":"Web",
+          "initial_referring_domain":"www.coinbase.com"
+       }
+    }
+ }
