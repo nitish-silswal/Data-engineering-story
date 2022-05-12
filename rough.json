@@ -1,0 +1,81 @@
+app_schema_fb = {
+
+    "account_information" : {
+        "name" :  ["profile_information" , "profile_v2" , "name" , "full_name"] ,
+        "email_address" : ["profile_information", "profile_v2", "emails" ,  "emails" , [] , 0],
+        "gender" : ["profile_information","profile_v2","gender","gender_option"],
+        "phone_number" : ["profile_information" , "profile_v2" , "phone_numbers", [] ,0,  "phone_number"],
+        "primary_location" : {
+            "items" : [
+                {
+                    "pincode" : ["primary_location" , "primary_location_v2" , "zipcode" , [] , 0]
+                }
+            ]
+        }
+        
+    },
+
+    "advertisement" : {
+        "items" : [
+            {
+                "advertiser_name" : ["advertisers_using_your_activity_or_information" , "custom_audiences_all_types_v2" , [] , "advertiser_name"],
+                "application" : ""
+            }
+        ]
+    },
+
+    "profile_updates" : {
+        "items" : [ 
+           {
+               "timestamp"  : ["profile_update_history" , "profile_updates_v2" , [] , "timestamp"],
+               "application" : ""
+           }
+        ]
+    },
+
+    "location_history" : {
+        "items" : ["account_activity" , "account_activity_v2" , [] , "city"],
+        "application" : ""
+    },
+
+    "your_search_history" : {
+        "items" : [
+            {
+                "title" : ["your_search_history" , "searches_v2" , [] , "title"],
+                "timestamp" : ["your_search_history" , "searches_v2" , [] , "timestamp"],
+                "application" : ""
+            }
+        ]
+    },
+
+    "account_login_activity" : {
+        "items" : [
+            {
+                "timestamp" : ["logins_and_logouts" , "account_accesses_v2" , [] , "timestamp"],
+                "application" : ""
+            }
+        ]
+    },
+
+    "your_posts" : {
+        "items" : [
+            {
+                "title" : ["your_posts_1" , [] , "title"],
+                "timestamp" : ["your_posts_1" , [] , "timestamp"],
+                "application" : ""
+            }
+        ]
+    },
+    
+    "friends" : {
+        "items" : [
+            {
+                "name" : ["friends" , "friends_v2" , []  ,"name"],
+                "timestamp" : ["friends" , "friends_v2" , [] , "timestamp"],
+                "application" : ""
+            }
+        ]
+    }
+
+  
+}

@@ -127,21 +127,34 @@ def fill_info_from_snapchat(social_template_json , snapchat_json , snapchat_list
 
 if __name__ == "__main__":
     social_json_template = json.load(open("social_json_template.json" , "r"))
-    fb_json = json.load(open("fb_json.json" , "r"))
-    fill_info_from_facebook(social_json_template , fb_json, fb_list)
+
+    try:
+        fb_json = json.load(open("fb_json.json" , "r"))
+        fill_info_from_facebook(social_json_template , fb_json, fb_list)
+    except:
+        print("no FB file")
     # out= open("output.json" , "w")
     # json.dump(social_json_template , out , indent = 2)
 
 
     # social_json_template = json.load(open("social_json_template.json" , "r"))
-    insta_json = json.load(open("insta_json.json" , "r"))
-    fill_info_from_instagram(social_json_template , insta_json, insta_list)
+    try:
+        insta_json = json.load(open("insta_json.json" , "r"))
+        fill_info_from_instagram(social_json_template , insta_json, insta_list)
+    except:
+        print("No INSTA file")
     # out= open("output.json" , "w")
     # json.dump(social_json_template , out , indent = 2)
 
 
     # social_json_template = json.load(open("social_json_template.json" , "r"))
-    snapchat_json = json.load(open("snapchat_json.json" , "r"))
-    fill_info_from_snapchat(social_json_template , snapchat_json, snapchat_list)
+    try:
+        snapchat_json = json.load(open("snapchat_json.json" , "r"))
+        fill_info_from_snapchat(social_json_template , snapchat_json, snapchat_list)
+    except:
+        print("No SNAPCHAT file")
     out= open("output.json" , "w")
     json.dump(social_json_template , out , indent = 2)
+
+
+

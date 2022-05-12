@@ -1,0 +1,55 @@
+app_schema = {
+    "App":"spotify",
+    'Top Tracks':[
+        {
+            'song-name':['top_tracks','items',[],'artists',[],'name'],
+            'is_local':['top_tracks','items',[],'is_local'],
+            "popularity":['top_tracks','items',[],'popularity'],
+            "ms_played":['top_tracks','items',[],'duration_ms']
+        }
+    ],
+    'User Profile': {
+        "Country":['userdata','country'],
+        "Age":['userdata','birthdate'],
+        "Gender":['userdata','gender'],
+        "PinCode":['userdata','age'],
+        "Creation Time":['userdata','creationtime'],
+    },
+    'Top Artists':[
+        {
+            "artist":['top_artists','items',[],'name'],
+            "followers":['top_artists','items',[],'followers','total'],
+            "popularity":['top_artists','items',[],'popularity'],
+        }
+    ],
+    'ODEN_ID':[]
+}
+
+
+
+music_schema = {
+    "App":"",
+    'Top Tracks':[
+        {
+            'song-name':"",
+            'is_local':"",
+            "popularity":"",
+            "ms_played":""
+        }
+    ],
+    'User Profile': {
+        "Country":"",
+        "Age":"",
+        "Gender":"",
+        "PinCode":"",
+        "Creation Time":"",
+    },
+    'Top Artists':[
+        {
+            "artist":"",
+            "followers":0,
+            "popularity":0,
+        }
+    ],
+    'ODEN_ID':""
+}
