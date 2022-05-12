@@ -1,4 +1,4 @@
-{
+financial_schema = {
     "account_information" : {
         "name" : "",
         "email_address" : "",
@@ -29,6 +29,43 @@
             "currency" : "",
             "available_balance" : "",
             "total_balance" : ""
+        }
+    ]
+}
+
+
+
+app_schema_coinbase = {
+    "account_information" : {
+        "name" : ["coinbase_data.txt" , "coinbase_data" , "Names"],
+        "email_address" : ["coinbase_data.txt" , "coinbase_data" , "Emails"],
+        "email_verified" : ["coinbase_data.txt" , "coinbase_data" , "email_verified"],
+        "phone_number" : ["coinbase_data.txt" , "coinbase_data" , "Phone Numbers"],
+        "primary_location" : {
+            "city" : ["coinbase_data.txt" , "coinbase_data" , "city"],
+            "state" : ["coinbase_data.txt" , "coinbase_data" , "region"],
+            "country" : ["coinbase_data.txt" , "coinbase_data" , "country"]
+        },
+        "language" : ["coinbase_data.txt" , "coinbase_data" , "language"],
+        "device_type" : ["coinbase_data.txt" , "coinbase_data" , "device_type"]
+    },
+
+    "app_usage_information" : [
+        {
+            "application" : "",
+            "usageTime" : ["coinbase_data.txt" , "coinbase_data" , "usageTime"],
+            "first_used" : ["coinbase_data.txt" , "coinbase_data" , "first_used"],
+            "last_used" : ["coinbase_data.txt" , "coinbase_data" , "last_used"],
+            "signup_platform" : ["coinbase_data.txt" , "coinbase_data" , "signup_platform"]
+        }
+    ],
+
+    "balance" : [
+        {
+            "application" : "",
+            "currency" : "NA",
+            "available_balance" : "NA",
+            "total_balance" : "NA"
         }
     ]
 }
