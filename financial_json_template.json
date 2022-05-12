@@ -21,5 +21,14 @@
             "last_used" : "",
             "signup_platform" : ""
         }
+    ],
+
+    "balance" : [
+        {
+            "application" : "",
+            "currency" : "",
+            "available_balance" : "",
+            "total_balance" : ""
+        }
     ]
 }
